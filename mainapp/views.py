@@ -3,4 +3,6 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse('<h1>Hello world</h1>')
+    oge_link = 'oge/'
+    link_html_text = f'<a href="{oge_link}">OGE</a>'
+    return HttpResponse(link_html_text)
