@@ -3,4 +3,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('<a href="http://127.0.0.1:8000/ege">http://127.0.0.1:8000/ege</a>')
+    ege_link
+    return HttpResponse('<a href="ege/">ege/</a>')
